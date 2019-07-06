@@ -11,19 +11,19 @@
       </li>
 
       <li>
-        <a>朋友</a>
+        <a href="#">朋友</a>
       </li>
 
       <li>
-        <a>商城</a>
+        <a href="#">商城</a>
       </li>
 
       <li>
-        <a>音乐人</a>
+        <a href="#">音乐人</a>
       </li>
 
       <li>
-        <a>下载客户端</a>
+        <a href="#">下载客户端</a>
       </li>
 
     </ul>
@@ -53,7 +53,6 @@ export default {
   height: 70px;
   box-sizing: border-box;
   background: #242424;
-
   border-bottom: 1px solid #000;
 }
 .menu_top .logo {
@@ -71,7 +70,6 @@ export default {
   position: relative;
   float: left;
   height: 70px;
-  font-size: 14px;
   list-style: none;
 }
 
@@ -81,7 +79,6 @@ export default {
   outline: none;
   font-size: 14px;
   padding: 0 19px;
-  text-align: center;
   line-height: 70px;
   text-decoration:none;
 }
