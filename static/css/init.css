@@ -1,0 +1,12 @@
+body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, section, p, input, td, th, ins{
+    margin: 0;
+    padding:0;
+}
+
+[hidefocus]
+{outline:none;}
+
+
+.pic-back{
+    background: url(/static/pic/topbar.png) no-repeat 0 9999px;
+}
