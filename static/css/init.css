@@ -2,11 +2,28 @@ body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, sectio
     margin: 0;
     padding:0;
 }
+body, textarea, select, input, button{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+em, i {
+    font-style: normal;
+    text-align: left;
+    font-size: inherit;
+}
 
 [hidefocus]
 {outline:none;}
 
 
-.pic-back{
+.pic-background{
     background: url(/static/pic/topbar.png) no-repeat 0 9999px;
 }

@@ -6,14 +6,16 @@
 <script> 
 export default {
     data(){
-        //如果这个组件的data由vueX管理，不需要这个方法data()
+        //如果这个组件的data由vueX管理，则不需要这个方法data()
         return {}
     },
     created(){ //hook 钩子函数
 
     },
 
-    components:{}
+    components:{},
+    
+    methods:{}
 }
 </script>
 
