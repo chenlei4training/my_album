@@ -28,3 +28,12 @@ npm install --save-dev node-sass
 
 ```
 
+## static 目录
+```
+目前使用了根目录的 static 目录
+以后也会使用 src/static 目录，因为scss缘故
+```
+
+
+
+
