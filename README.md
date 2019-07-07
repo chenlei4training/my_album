@@ -33,7 +33,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 -----------------------------------------------------------------------------------------------
 ## 项目初始化 
 ```
-vue init
+vue init webpack my_album
+
 ```
 
 ## scss 依赖包
