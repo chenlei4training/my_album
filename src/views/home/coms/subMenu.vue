@@ -2,8 +2,8 @@
   <div :class="{'m-subnav':hasItems, 'only-one-line':!hasItems}">
     
     <ul>
-      <li v-for="item in subMenuTitleArray">
-        <a href="#"> <em> {{ item.title }} </em></a>
+      <li v-for="item in subMenuTitleArray" :key="item.title">
+        <a href="#" > <em> {{ item.title }} </em></a>
      </li>
     </ul>
   </div>
