@@ -51,6 +51,16 @@ npm install --save-dev node-sass
 以后也会使用 src/static 目录，因为scss缘故
 ```
 
+## funny ~_~, vuex的部分代码来源于redux
+
+```
+https://github.com/vuejs/vuex/blob/dev/src/plugins/logger.js
+<quote>
+// Credits: borrowed code from fcomb/redux-logger
+import { deepCopy } from '../util' ... ...
+</quote>
+```
+
 
 
 

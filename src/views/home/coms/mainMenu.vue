@@ -82,7 +82,7 @@ export default {
   methods: {
     test() {
       alert("test debug 生产环境中不能出现这个功能");
-
+      //TODO:move to api folder
       this.$http.get("/posts?id=1").then(res => {
         console.log("axiso get posts", res);
       });
