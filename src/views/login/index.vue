@@ -36,6 +36,11 @@ export default {
   },
 
   methods: {
+    fun1(){
+      //async 异步方法
+
+      //执行完毕就 调用 mutation 的功能
+    },
     /***
      * 以载荷形式分发
     store.dispatch('user/singIn', {
@@ -50,11 +55,15 @@ export default {
 
     使用 login 是 login({useName: 'foo',password:'bar'})
      */
-    ...mapActions({
-      login: "user/singIn"
+    ...mapActions('user',{
+      login: "singIn"
     }),
-    ...mapMutations("user", {
-      changeLoginState: "updateIsSigniIn"
+    /**
+     * changeLoginState(objPayload)
+     * 
+     */
+    ...mapMutations('user', {
+      changeLoginState: "updateIsSignin"
     })
   }
 };

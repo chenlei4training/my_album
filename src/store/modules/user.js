@@ -17,17 +17,7 @@ const getters = {
 // actions
 const actions = {
 
-  denglu({ commit, state }, {userName, password}) {
 
-    apiUser.singIn(userName, password).then((result) => {
-      if (result) {
-        alert('success')
-      } else {
-        alert('failed')
-      }
-      commit('singInState', {userName, result}) // mutations中的函数名 singInState
-    })
-  },
 
   singIn({ commit, state }, payload) {
 
@@ -51,7 +41,7 @@ const mutations = {
     state.isSingIn = result
   },
 
-  updateIsSigniIn(state,{isLogin}) {
+  updateIsSignin(state,{isLogin}) {
     state.isSingIn = isLogin
   }
 }
