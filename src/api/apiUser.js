@@ -14,7 +14,7 @@ let singIn = (name, password) => {
 //http://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html
 //https://www.jianshu.com/p/576dbf44b2ae
 let saveToLocalStorage = (name) => {
-
+    localStorage.setItem(name,"pending")
 }
 
 export default {

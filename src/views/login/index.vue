@@ -22,7 +22,6 @@ import { mapMutations } from "vuex";
 
 export default {
   data() {
-    //如果这个组件的state由vueX管理，则不需要这个方法data()
     return {
       userName: "chenlei",
       password: "123321"
