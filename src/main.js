@@ -13,7 +13,7 @@ import subMenuMock from '@/mock/mockSubMenu.js' // 得到子菜单的数据
 import axios from 'axios' // axios http请求库
 
 axios.defaults.baseURL = 'http://mockjs.com/api' // 设置默认请求的url
-// Vue.prototype.$http = axios
+Vue.prototype.$http = axios
 
 window.store = store
 

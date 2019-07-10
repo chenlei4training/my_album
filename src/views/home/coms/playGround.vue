@@ -7,7 +7,9 @@
 </template>
 
 <script>
-import apiInt from "../../../api/api4interpector"
+// import apiInt from "../../../api/api4interpector"
+
+import api from "../../../api/index.js"
 
 export default {
 
@@ -28,7 +30,7 @@ export default {
 
   methods: {
       renderToNewPage(){
-        apiInt.tryGetAnyDataApi();
+        api.inte.tryGetAnyDataApi();
       }
   },
 

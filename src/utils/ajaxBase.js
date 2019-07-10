@@ -8,7 +8,7 @@ const ajax = axios.create({
 
 
 // Add a request interceptor
-axios.interceptors.request.use(function (config) {
+ajax.interceptors.request.use(function (config) {
     // Do something before request is sent
     router.push('/login');
     return config;
@@ -20,12 +20,12 @@ axios.interceptors.request.use(function (config) {
 
 
 export default {
-    get:(url,data)=>{
+    get(url,data){
         return ajax.get(url,{
             params:data
         });
     },
-    post:function(url,data){
+    post(url,data){
         return ajax.post(url,data);
     },
     /**
