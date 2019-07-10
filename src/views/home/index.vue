@@ -1,12 +1,14 @@
 <template>
     <div class="global_top_bar">
         <main-menu/>
+        <play-ground/>
     </div>
 </template>
 
 
 <script>
 import mainMenu from "./coms/mainMenu"
+import playGround from "./coms/playGround.vue"
 export default {
     data(){
         //如果这个组件的data由vueX管理，不需要这个方法data()
@@ -18,6 +20,7 @@ export default {
 
     components:{
         mainMenu,
+        playGround
     }
 }
 </script>
